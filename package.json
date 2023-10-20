@@ -1,0 +1,45 @@
+{
+  "name": "jposh-server-side",
+  "version": "1.0.0",
+  "description": "server side ecommerce application for jposh clothing store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shina1/Jposh-server-side.git"
+  },
+  "keywords": [
+    "clothing",
+    "ecommerce"
+  ],
+  "author": "abdulmaleek wasiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shina1/Jposh-server-side/issues"
+  },
+  "homepage": "https://github.com/shina1/Jposh-server-side#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "stripe": "^8.215.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
